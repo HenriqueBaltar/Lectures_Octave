@@ -1,0 +1,1 @@
+f_original = @(t) exp(t);f_0 = @(t) 1;f_1 = @(t) 1+t;f_2 = @(t) 1+t+t.^2/2;f_3 = @(t) 1+t+t.^2/2+t.^3/6;tt = -2:0.01:2;plot(tt, f_original(tt))hold onplot(tt, f_0(tt))plot(tt, f_1(tt))plot(tt, f_2(tt))plot(tt, f_3(tt))
